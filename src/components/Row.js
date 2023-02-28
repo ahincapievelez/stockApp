@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { useState } from "react"; 
+//import { useState } from "react"; 
 
 function Row( { symbol, company, price, change}) {
 
     //let [changeValue, setChangeValue] = useState(change)
-    let [changeStatus, setChangeStatus] = useState(false)
+    //let [changeStatus, setChangeStatus] = useState(false)
 
     console.log(change)
     let status = Math.sign(change);
